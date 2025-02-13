@@ -5,5 +5,5 @@ int main(){
     scanf("%d", &b);
     scanf("%d", &c);
     average=a+b+c/3;
-    print("Average: %d",average);  
+    print("Average: %d", average);  
 }
