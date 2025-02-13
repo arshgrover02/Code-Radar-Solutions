@@ -5,9 +5,9 @@ int main(){
     scanf("%c", name);
     scanf("%d" ,age);
     scanf("%[^\n]%*c", hobby);
-    printf("%s", name);
-    printf("%d", age);
-    printf("%s", hobby);    
+    printf("%s\n", name);
+    printf("%d\n", age);
+    printf("%s\n", hobby);    
 
 
 }
