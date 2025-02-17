@@ -9,9 +9,9 @@ int main() {
     
 
     if (num % 5 == 0 && num % 11 == 0) {
-        printf("The number is divisible by both 5 and 11.\n");
+        printf("Divisible");
     } else {
-        printf("The number is NOT divisible by both 5 and 11.\n");
+        printf("Not Divisible");
     }
     
     return 0;
