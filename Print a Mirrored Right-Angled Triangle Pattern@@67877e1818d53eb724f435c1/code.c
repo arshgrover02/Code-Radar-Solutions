@@ -10,7 +10,7 @@ int main() {
     // Print the mirrored right-angled triangle
     for (int i = 1; i <= rows; i++) {
         // Print spaces to align the stars on the right
-        for (int j = i; j <= rows; j++) {
+        for (int j = i; j < rows; j++) {
             printf(" ");
         }
         // Print stars
