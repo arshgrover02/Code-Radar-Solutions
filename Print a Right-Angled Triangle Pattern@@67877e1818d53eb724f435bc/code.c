@@ -1,19 +1,14 @@
 #include <stdio.h>
 
 int main() {
-    int rows;
+    int n;
+    scanf("%d",&n);
 
-    // Input the number of rows
-    // printf("Enter number of rows: ");
-    scanf("%d", &rows);
-
-    // Print inverted right-angled triangle
-    for (int i = rows; i >= 1; i++) {
-        for (int j = 1; j <= i; j--) {
-            printf("*");
+    for (int i =1; i<=n; i++){
+        for (int j=1; j<=i; j++){
+            printf("* ");
         }
         printf("\n");
     }
-
-    return 0;
 }
+
