@@ -11,7 +11,7 @@ int main() {
     // Print the pyramid
     for (int i = 1; i <= rows; i++) {
         // Print spaces
-        for (int j = i; j < rows; j++) {
+        for (int j = 1; j < rows; j++) {
             printf(" ");
         }
         // Print stars
